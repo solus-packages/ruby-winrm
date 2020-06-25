@@ -2,8 +2,8 @@
     <Source>
         <Name>ruby-winrm</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Packager>
         <License>Apache-2.0</License>
         <PartOf>programming.ruby</PartOf>
@@ -20,148 +20,72 @@
         <PartOf>programming.ruby</PartOf>
         <Files>
             <Path fileType="executable">/usr/bin/rwinrm</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/build_info</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/doc</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/extensions</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/.gitignore</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/.rubocop.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/.travis.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/Gemfile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/LICENSE</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/README.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/Rakefile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/Vagrantfile</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/WinrmAppveyor.psm1</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/appveyor.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/bin/rwinrm</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/changelog.md</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/connection.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/connection_opts.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/exceptions.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/http/response_handler.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/http/transport.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/http/transport_factory.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/output.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/create_pipeline.xml.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/fragment.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/init_runspace_pool.xml.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_data.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_data/base.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_data/error_record.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_data/pipeline_host_call.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_data/pipeline_output.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_data/pipeline_state.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_data/runspacepool_host_call.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_data/runspacepool_state.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_data/session_capability.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_defragmenter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_factory.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/message_fragmenter.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/powershell_output_decoder.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/receive_response_reader.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/session_capability.xml.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/psrp/uuid.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/shells/base.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/shells/cmd.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/shells/power_shell.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/shells/retryable.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/shells/shell_factory.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/version.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/base.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/cleanup_command.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/close_shell.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/command.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/command_output.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/command_output_decoder.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/configuration.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/create_pipeline.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/create_shell.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/header.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/init_runspace_pool.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/iso8601_duration.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/keep_alive.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/receive_response_reader.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/send_data.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/soap.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/wql_pull.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/wql_query.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/lib/winrm/wsmv/write_stdin.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/preamble</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/integration/auth_timeout_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/integration/cmd_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/integration/config-example.yml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/integration/issue_59_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/integration/powershell_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/integration/spec_helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/integration/transport_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/integration/wql_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/matchers.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/configuration_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/connection_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/exception_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/http/transport_factory_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/http/transport_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/output_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/fragment_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_data/base_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_data/error_record_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_data/pipeline_host_call_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_data/pipeline_output_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_data/pipeline_state_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_data/runspace_pool_host_call_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_data/runspacepool_state_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_data/session_capability_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_data_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_defragmenter_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/message_fragmenter_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/powershell_output_decoder_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/psrp_message_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/recieve_response_reader_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/psrp/uuid_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/response_handler_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/shells/base_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/shells/cmd_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/shells/powershell_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/spec_helper.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/clixml/error_record.xml.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/clixml/pipeline_state.xml.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/responses/get_command_output_response.xml.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/responses/get_command_output_response_not_done.xml.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/responses/get_powershell_keepalive_response.xml.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/responses/get_powershell_output_response.xml.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/responses/get_powershell_output_response_not_done.xml.erb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/responses/open_shell_v1.xml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/responses/open_shell_v2.xml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/responses/soap_fault_v1.xml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/responses/soap_fault_v2.xml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/stubs/responses/wmi_error_v2.xml</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/cleanup_command_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/close_shell_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/command_output_decoder_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/command_output_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/command_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/configuration_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/create_pipeline_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/create_shell_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/init_runspace_pool_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/keep_alive_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/receive_response_reader_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/send_data_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/wql_query_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/tests/spec/wsmv/write_stdin_spec.rb</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/gems/winrm-2.2.3/winrm.gemspec</Path>
-            <Path fileType="library">/usr/lib64/ruby/gems/2.6.0/specifications/winrm-2.2.3.gemspec</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/LICENSE</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/README.md</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/bin/rwinrm</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/connection.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/connection_opts.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/exceptions.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/http/response_handler.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/http/transport.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/http/transport_factory.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/output.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/create_pipeline.xml.erb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/fragment.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/init_runspace_pool.xml.erb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_data.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_data/base.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_data/error_record.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_data/pipeline_host_call.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_data/pipeline_output.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_data/pipeline_state.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_data/runspacepool_host_call.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_data/runspacepool_state.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_data/session_capability.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_defragmenter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_factory.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/message_fragmenter.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/powershell_output_decoder.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/receive_response_reader.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/session_capability.xml.erb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/psrp/uuid.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/shells/base.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/shells/cmd.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/shells/power_shell.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/shells/retryable.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/shells/shell_factory.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/version.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/base.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/cleanup_command.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/close_shell.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/command.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/command_output.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/command_output_decoder.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/configuration.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/create_pipeline.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/create_shell.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/header.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/init_runspace_pool.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/iso8601_duration.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/keep_alive.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/receive_response_reader.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/send_data.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/soap.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/wql_pull.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/wql_query.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/gems/winrm-2.3.4/lib/winrm/wsmv/write_stdin.rb</Path>
+            <Path fileType="library">/usr/lib64/ruby/gems/2.7.0/specifications/winrm-2.3.4.gemspec</Path>
         </Files>
     </Package>
     <History>
-        <Update release="3">
-            <Date>2019-10-07</Date>
-            <Version>2.2.3</Version>
+        <Update release="4">
+            <Date>2020-06-26</Date>
+            <Version>2.3.4</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joshua Strobl</Name>
+            <Email>joshua@streambits.io</Email>
         </Update>
     </History>
 </PISI>

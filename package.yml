@@ -1,18 +1,18 @@
 name       : ruby-winrm
-version    : 2.2.3
-release    : 3
+version    : 2.3.4
+release    : 4
 source     :
-    - https://rubygems.org/downloads/winrm-2.2.3.gem : 067e7162ae879f5babf1a7728918bea977d213cda963bfc0aa70cbd57a5c9f0a
+    - https://rubygems.org/downloads/winrm-2.3.4.gem : d537b0231d33e3f4c82601894df61994a996cec13b1ba4e2b8d3c62d86db808d
 license    : Apache-2.0
 component  : programming.ruby
 summary    : RubyGem - winrm
 description: |
     Ruby library for Windows Remote Management.
 builddeps  :
-    - pkgconfig(ruby-2.6)
+    - pkgconfig(ruby-2.7)
 rundeps    :
     - ruby-builder
-    - ruby-erubis
+    - ruby-erubi
     - ruby-gssapi
     - ruby-gyoku
     - ruby-httpclient
@@ -21,3 +21,4 @@ rundeps    :
     - rubyntlm
 install    : |
     %gem_install
+    rm -rf $installdir/$geminstalldir/{build_info,doc,extensions}
